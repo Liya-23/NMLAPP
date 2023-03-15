@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styling.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <button>
+            <a href="4Register.html">back</a>
+        </button>
+        <h1>Admission Point Score</h1>
+        <form>
+
+            <select id="h.lang">
+                <option>Select Home language</option>
+                <option>Isixhosa</option>
+                <option>English</option>
+                <option>Afrikaans</option>
+            </select>
+            <input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <select id="f.a.lang">
+                <option>Select F.A language</option>
+                <option>Isixhosa</option>
+                <option>English</option>
+                <option>Afrikaans</option>
+            </select>
+            <input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <select id="pc.course">
+                <option>CAT</option>
+                <option>IT</option>
+            </select>
+            <input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <label for="">Math</label>
+            <input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <select id="A.Sub1">
+                <option>Physical Sciences</option>
+                <option>Life Sciences</option>
+                <option>Agriculture</option>
+                <option>Tourism</option>
+            </select>
+            <input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <select id="A.Sub2">
+                <option>Physical Sciences</option>
+                <option>Life Sciences</option>
+                <option>Agriculture</option>
+                <option>Tourism</option>
+            </select>
+            <span></span><input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+            <label for="">Life Orientation</label>
+            <span></span><input type="number" min="40" max="100" step="1" value="0">
+            <br><br>
+        </form>
+        <br><br>
+        <button>
+          <a href="4Register.html">Next</a>
+        </button>
+    </body>
+</html>

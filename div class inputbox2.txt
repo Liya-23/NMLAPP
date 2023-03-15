@@ -1,0 +1,42 @@
+
+            <button>
+                <!--<a href="terminate"-->
+                    exit
+            </button><br><br>
+            <label for="Name"> name: </label>
+            <input type="text"><br><br>
+            <label for="">Surname</label>
+            <input type="text"><br><br>
+            <label for="">Email</label>
+            <input type="text"><br><br>
+            <label for="">Number</label>
+            <input type="text"><br><br>
+
+            <button>
+                send 
+                <!--generates username-->
+            </button>
+            <br>
+            <br>
+            <label for="">Username</label>
+            <input type="text"><br><br>
+            <label for="">Enter your password</label>
+            <input type="password"><br><br>
+            <label for="">re-enter your password</label>
+            <input type="password"><br> <br>
+
+            <button>
+                submit 
+                <!--check if all info is entered and is correct especially password-->
+            </button>
+            <button>
+                clear
+                <!--cleares everythimg entered-->
+            </button>
+            <br><br>
+            <button>
+                
+                <!--Proceeds to the next form-->
+                <!--<a href="File2.html">Next</a>-->
+                <a href="2Login.html">done</a>
+            </button>

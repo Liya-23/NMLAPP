@@ -1,0 +1,134 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+body{
+    display: flex ;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+    background-image: url(/NML_2.jpeg);
+    background-repeat: round;
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    /*margin-left: 100px;*/
+    padding-left: 100px;
+    text-align: center;
+}
+
+.name span{
+    color: red;
+    font-size: 2rem;
+}
+
+.bigbox{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 690px;
+    height: 600px;
+    background: greenyellow;
+    overflow: hidden;
+    text-align: right;
+}
+.forms{
+    position:absolute;
+    inset:2px;
+    border-radius: 18px;
+    background-color: aqua; 
+}
+.calcbox{
+   position: relative;
+   top: 0px;
+   left: 0px;
+   width: 800px;
+   height: 640px; 
+   background-color: yellowgreen;
+   top: 0px;
+   left: 0px;
+   align-items: right;
+}
+.bigbox::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left:  -50%;
+    width: 380px;
+    height: 420px;
+    
+}
+.calcbox::before{
+    content: '';
+    top: -50%;
+    left: -50%;
+    width: 380%;
+    height: 420%;
+}
+.bigbox::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left:  -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,  #45f3ff,Blue);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4s;
+    -webkit-animation: animate 6s linear infinite;
+}
+
+.form{
+    position:absolute;
+    inset:2px;
+    border-radius: 18px;
+    background: #0dd30d;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+   
+}
+
+.inputbox{
+    position: absolute;
+    width: -100px;
+    margin-top: 35px;
+}
+
+.inputbox input{
+    position: relative;
+    width: 90px;
+    height: 5px;
+    padding: 3px 10px 10px;
+    
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    
+}
+
+.middlesidetext{
+    text-align: center;
+}
+
+.rightsidetext{
+    text-align: right;
+}
+.captions{
+    text-align: left;
+    color: rgba(226, 106, 8, 0.884);
+}
+.inputs{
+    padding-right: 50px;
+    margin-right: 60px;
+
+}
